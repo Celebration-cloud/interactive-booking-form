@@ -1,0 +1,33 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+@layer tailwind-base, primereact, tailwind-utilities;
+
+
+@layer tailwind-base {
+    @tailwind base;
+}
+
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
+
+.p-steps-item-active .p-steps-number {
+  @apply bg-blue-600 border-blue-600 text-white;
+}
+
+/* Active step title styling */
+.p-steps-item-active .p-steps-title {
+  @apply text-blue-600;
+}
+
+/* Inactive step number styling */
+.p-steps-item:not(.p-steps-item-active) .p-steps-number {
+  @apply bg-gray-200 border-gray-300 text-gray-700;
+}
+
+/* Inactive step title styling */
+.p-steps-item:not(.p-steps-item-active) .p-steps-title {
+  @apply text-gray-500;
+}
