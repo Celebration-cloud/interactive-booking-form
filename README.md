@@ -11,7 +11,7 @@ This interactive multi-step booking form enables users to schedule cargo shipmen
 
 ## Technologies Used
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
+- [Next.js 15](https://nextjs.org/docs/getting-started)
 - [HeroUI v2](https://heroui.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Tailwind Variants](https://tailwind-variants.org)
