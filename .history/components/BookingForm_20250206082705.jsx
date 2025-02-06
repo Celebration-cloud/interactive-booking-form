@@ -126,7 +126,7 @@ const BookingForm = () => {
   };
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen p-4">
       {/* Container: Centers the form with responsive width */}
       <div className="max-w-4xl md:max-w-7xl md:flex mx-auto space-y-5">
         {/* StepperIndicator shows the progress and active step */}

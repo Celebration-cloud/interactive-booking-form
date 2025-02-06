@@ -56,7 +56,7 @@ export const ThankYouPage = () => {
           </p>
         </CardBody>
 
-        <CardFooter className="flex justify-center max-[425px]:flex-col space-x-4 max-sm:space-x-0">
+        <CardFooter className="flex justify-center space-x-4">
           <Button
             aria-label="Start a new booking"
             color="primary"
@@ -69,6 +69,7 @@ export const ThankYouPage = () => {
             aria-label="Return to homepage"
             color="secondary"
             variant="outline"
+            co
             onPress={handleHome}
           >
             Return to Homepage

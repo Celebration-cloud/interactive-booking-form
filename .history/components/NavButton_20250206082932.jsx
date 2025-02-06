@@ -27,7 +27,7 @@ const NavButton = () => {
 
   return (
     <div className={`${pathname === "/booking" ? "hidden" : ""}`}>
-      <Button color="primary" size="sm" variant="bordered" onPress={navigateToBooking}>
+      <Button size="" color="primary" variant="bordered" onPress={navigateToBooking}>
         Book a Shipment
       </Button>
     </div>
